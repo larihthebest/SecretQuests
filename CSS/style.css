@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  padding: 1rem;
+  color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 0fr 2fr 0.1fr;
+  align-items: center;
+  
+}
+
+header > a > img {
+  width: 2rem;
+}
+
+header > h1 {
+  text-align: center;
+  font-family: "Pixelify Sans", cursive;
+}
+
+body > header:nth-child(1) > img {
+  width: 3rem;
+}
+
+main > #text{
+  font-size: 25px;
+  height: 70px;
+}
+
+main > #text1{
+  font-size: 25px;
+  height: 150px;
+}
+
+main > #textS{
+  font-size: 25px;
+  height: 130px;
+}
+
+main > #textG{
+  font-size: 25px;
+  height: 120px;
+}
+
+main > h1 {
+  height: 75px;
+  font-size: 40px;
+}
+
+main > #tituloPI {
+  font-size: 25px;
+  height: 100px;
+}
+
+body > nav > ul #bttPaginaInicial {
+  
+  padding: 0px 0px;
+  font-size: 30px;
+  background-color: #6d29db;
+  color: #000000;
+  margin: 100px;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+body > nav > ul #bttMortal {
+  
+    padding: 0px 0px;
+    font-size: 30px;
+    background-color: #6d29db;
+    color: #000000;
+    margin: 100px;
+    cursor: pointer;
+    text-decoration: none;
+       
+}
+
+body > nav > ul #bttGta {
+  
+  padding: 0px 0px;
+  font-size: 30px;
+  background-color: #6d29db;
+  color: #000000;
+  margin: 480px;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+body > nav > ul #bttSpider {
+  
+  padding: 0px 0px;
+  font-size: 30px;
+  background-color: #6d29db;
+  color: #000000;
+  margin: 0px;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+  body > nav {
+    background-color: #6d29db;
+    left: 0px;
+    font-size: 0.75rem;
+    height: 75px;
+    
+  }

@@ -54,13 +54,12 @@ main > h1 {
   font-size: 40px;
 }
 
-main > #tituloPI {
+main > #titdivoPI {
   font-size: 25px;
   height: 100px;
 }
 
-body > nav > ul #bttPaginaInicial {
-  
+body > nav > ul > #bttPaginaInicial {
   padding: 0px 0px;
   font-size: 30px;
   background-color: #6d29db;
@@ -68,34 +67,30 @@ body > nav > ul #bttPaginaInicial {
   margin: 100px;
   cursor: pointer;
   text-decoration: none;
-  
 }
 
-body > nav > ul #bttMortal {
+body > nav > #bttMortal {
   
     padding: 0px 0px;
     font-size: 30px;
     background-color: #6d29db;
     color: #000000;
-    margin: 100px;
     cursor: pointer;
     text-decoration: none;
-       
 }
 
-body > nav > ul #bttGta {
+body > nav > #bttGta {
   
   padding: 0px 0px;
   font-size: 30px;
   background-color: #6d29db;
   color: #000000;
-  margin: 480px;
   cursor: pointer;
   text-decoration: none;
   
 }
 
-body > nav > ul #bttSpider {
+body > nav > #bttSpider {
   
   padding: 0px 0px;
   font-size: 30px;
@@ -112,5 +107,14 @@ body > nav > ul #bttSpider {
     left: 0px;
     font-size: 0.75rem;
     height: 75px;
-    
+    display: flex;
+    justify-content: space-around;
   }
+
+button.button_zoom{
+  color: white;
+  background-color: #6d29db;
+  border-radius: 1rem;
+  padding: 0.5rem;
+font-size: 1rem;
+}
